@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo rm /home/etc/nginx/sites-enabled/default
+sudo rm -rf /home/etc/nginx/sites-enabled/default
 sudo rm /etc/nginx/sites-enabled/test.conf
 
 sudo ln -s /home/box/web/etc/nginx.conf /etc/nginx/sites-enabled/test.conf
